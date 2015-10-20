@@ -16,6 +16,5 @@ $ ->
       $("#invitationFormSuccess").show()
     xhr.fail ->
       $("#invitationFormFail").show()
-#      $("#invitationFormSuccess").show()
     xhr.always ->
       $("#invitationForm").find("input").prop("disabled", "")
