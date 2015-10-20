@@ -1,4 +1,4 @@
-# ldztechslack.com
+# krktechslack.com
 
 ## Development
 

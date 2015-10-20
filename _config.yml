@@ -1,7 +1,7 @@
 # Site settings
-title: LDZTech
+title: KRKTech
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://ldztechslack.com" # the base hostname & protocol for your site
+url: "http://krktechslack.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
