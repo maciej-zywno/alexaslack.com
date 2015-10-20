@@ -1,4 +1,4 @@
-# tech404.io
+# ldztechslack.com
 
 ## Development
 
