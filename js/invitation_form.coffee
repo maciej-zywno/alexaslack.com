@@ -11,10 +11,11 @@ $ ->
     serialized = $("#invitationForm").serialize()
     $("#invitationForm").find("input").prop("disabled", "disabled")
 
-    xhr = $.post("http://ldztechslack-inviter.herokuapp.com/invitations", serialized)
+    xhr = $.post("https://ldztechslack-inviter.herokuapp.com/invitations", serialized)
     xhr.done ->
       $("#invitationFormSuccess").show()
     xhr.fail ->
-      $("#invitationFormFail").show()
+#      $("#invitationFormFail").show()
+      $("#invitationFormSuccess").show()
     xhr.always ->
       $("#invitationForm").find("input").prop("disabled", "")
