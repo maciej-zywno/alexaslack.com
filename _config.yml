@@ -1,7 +1,7 @@
 # Site settings
-title: TECH404
+title: LDZTech
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://tech404.io" # the base hostname & protocol for your site
+url: "http://ldztechslack.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
