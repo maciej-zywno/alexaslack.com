@@ -1,4 +1,4 @@
-# krktechslack.com
+# alexaslack.com
 
 ## Development
 
