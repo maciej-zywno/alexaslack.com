@@ -1,5 +1,5 @@
 # Site settings
-title: AWS Alexa & Echo
+title: Alexa & Echo
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://alexaslack.com" # the base hostname & protocol for your site
 
