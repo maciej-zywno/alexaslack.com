@@ -7,8 +7,11 @@
       <div class="wrapper">
         {{ content }}
       </div>
-      </br><a href="http://del.icio.us/amazonalexaslack">..- bookmarks -..</a>
-      </br><a href="http://www.open-agora.com/en/support/slack">..- poll help -..</a></br></br>
+      </br>
+        <form action="http://del.icio.us/amazonalexaslack"">
+          <input type="submit" class="button" id="linkbutton" value="Bookmarks" />
+        </form>
+      </br>
       <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=amazonalexaslack%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </div>
     {% include footer.html %}

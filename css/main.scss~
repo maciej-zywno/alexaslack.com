@@ -4,8 +4,8 @@
 @import "mixins";
 
 
-$background-color: #285975;
-$highlight-color: #AD430A;
+$background-color: #F8A434;
+$highlight-color: #E86C8D;
 $body-text-color: #FDFCFB;
 $body-text-size: 20px;
 $link-color: darken($highlight-color,40%);
@@ -76,24 +76,6 @@ form, footer {
     text-indent: 5%;
     border-radius: 5px 0 0 5px;
   }
-
-  #linkbutton {
-    width: 24%;
-    height: 36px;
-    background: $highlight-color;
-    font-family: inherit;
-    font-size: 18px;
-    font-weight: bold;
-    color: inherit;
-    letter-spacing: 1px;
-    border-radius: 5px 5px 5px 5px;
-    cursor: pointer;
-    transition: background .3s ease-in-out;
-  }
-  
-    #linkbutton:hover {
-    background: #d45d7d;
-  }  
 
   #submit {
     width: 24%;

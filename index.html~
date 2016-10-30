@@ -3,12 +3,9 @@ layout: default
 ---
 <form action="#" method="post" id="invitationForm">
   <div class="description">
-    <p style="text-align:center;">
-      <a href="https://amazonalexa.slack.com">
-        <img src="alexa_logo.png" alt="alexaslack" width="281" height="282" border="0">
-      </a>
-    </p>
-    <p>Welcome to a group of chat channels focusing on Amazon Alexa enabled hardware and software. Developers, designers, marketers, business people, hobbyists, students, and other professionals involved in technology are welcome.</p>
+    <h2><a href="https://amazonalexa.slack.com">https://amazonalexa.slack.com</a></h2>
+
+    <p>Welcome to a group of chat channels for Amazon Echo and Alexa enabled hardware and software developers, designers, marketers, business people, hobbyists, students, and other professionals involved in technology.</p>
     <!--<p>It&rsquo;s a common space for all to use and enjoy. We talk about the technologies we use, our ideas, successes and failures.</p>-->
     <!--<p>Put your best email address in the box below and our robots will send you an invitation.</p>-->
     <div class="flash-message success" id="invitationFormSuccess">
