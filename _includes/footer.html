@@ -5,11 +5,11 @@
   <p>The current moderators are:</p>
   <ul>
     {% for admin in site.data.admins %}
-    {% if admin.twitter %}
-    <li><a href="https://twitter.com/{{ admin.twitter }}">{{ admin.name }}</a></li>
-    {% else %}
-    <li>{{ admin.name }}</li>
-    {% endif %}
+      {% if admin.twitter %}
+          <li><a href="https://twitter.com/{{ admin.twitter }}">{{ admin.name }} (twitter)</a></li>
+      {% else %}
+        <li>{{ admin.name }}</li>
+      {% endif %}
     {% endfor %}
   </ul>
   <!--<p>If you&rsquo;d like to participate as an admin or to invite your group to the discussion, just ask one of them how to get involved.</p>-->
