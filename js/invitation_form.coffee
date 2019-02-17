@@ -11,7 +11,7 @@ $ ->
     serialized = $("#invitationForm").serialize()
     $("#invitationForm").find("input").prop("disabled", "disabled")
 
-    xhr = $.post("https://alexaslack-inviter.herokuapp.com/invitations", serialized)
+    xhr = $.post("https://hooks.zapier.com/hooks/catch/53588/phcf8h", serialized)
     xhr.done ->
       $("#invitationFormSuccess").show()
     xhr.fail ->
